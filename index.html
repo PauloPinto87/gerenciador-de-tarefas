@@ -18,15 +18,13 @@
         <main>
             <section class="form">
                 <form action="" method="get">
-                    <label for="task_name"><input type="text" name="task_name" placeholder="Nome da Tarefa" id="itarefa"></label>
-                    <button type="submit">Cadastrar</button>
+                    <label for="task_name"><input type="text" name="task_name" id="tarefa" placeholder="Nome da Tarefa" ></label>
+                    <button type="button" onclick="cadastrar()">Cadastrar</button>
                 </form>
             </section>
             <section class="list-tasks">
-                <ul>
-                    <li>Tarefa 1</li>
-                    <li>Tarefa 2</li>
-                    <li>Tarefa 3</li>
+                <ul id="tarefas_cadastradas">
+
                 </ul>
             </section>
         </main>
